@@ -1,0 +1,2016 @@
+
+*
+{
+    font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+.row{
+    margin: 0;
+}
+
+.scroll-header{
+    background: url("header-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 800px;
+    
+    
+}
+#navbarr1{
+    background: linear-gradient(rgba(0,0,0,0.9) 30%,transparent);
+}
+
+
+.navbar1 header{
+    width: 100%;
+   
+}
+.navbar1 header nav{
+    
+width: 100%;
+padding: 0px;
+    
+}
+
+.navbar1 header nav ul{
+    margin-left: auto;
+}
+.navbar1 nav .navbar-brand{
+    color: #fff;
+    display: inline-block;
+    font-family: Stanford,Source Serif Pro,Georgia,Times,Times New Roman,serif!important;
+    font-size: 1.5555555556em;
+    font-weight: 400;
+    line-height: 1.25em;
+    height: min-content;
+    text-decoration: none;
+    margin-left: 20px;
+}
+.navbar1 header button{
+    display: inline-block;
+    background-color: transparent;
+    height: 2.6666666667em;
+    color: #fff;
+    padding: 0 1em;
+    width: 6.6666666667em;
+    line-height: 1.6;
+    position: relative;
+    vertical-align: middle;
+    box-shadow: none !important;
+    border: none !important;
+    min-width: 5.5555555556em;
+}
+.tog-btn{
+    background-color: #b1040e;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    
+}
+.navbar-toggler-icon {
+    color:#fff !important;
+   
+}
+.navbar1 header nav ul li a{
+    height: 2.6666666667em;
+    line-height: 1.6;
+    color: #fff;
+    font-weight: 400;
+    padding: 10px 10px;
+    margin-left: 15px;
+    transition: background-color .3s ease-out;
+    font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
+    float: right;
+    position: relative;
+    
+}
+.navbar1 header #navv1 ul li a::after{
+    content: "";
+    position: absolute;
+    top: 1px;
+    left: 0;
+    right: 0;
+	width: 100%;
+	height: 0.175rem;
+	border-top: 3px solid #fff;
+	transition:0.5s ease-in-out;
+    transform: scale(0);
+}
+.navbar1 header #navv1 ul li a:hover::after{
+	transform: scale(1);
+}
+
+.navbar1 .menu nav ul li a{
+    font-weight: 400;
+    font-size: 1.25em;
+    font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
+    line-height: 1.8;
+    color: #fff;
+    padding-bottom: 1px;
+    
+}
+#navul{
+    height: 55px;
+}
+.navbar1 .menu nav ul li a::after{
+	content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+	width: 100%;
+	height: 0.175rem;
+    background: #fff;
+	/* border-bottom: 3px solid #fff; */
+	transition:0.5s ease-in-out;
+    transform: scale(0);
+
+}
+
+.navbar1 .menu nav ul li a:hover::after{
+	transform: scale(1);
+}
+
+.navbar1 .menu nav ul li{
+    margin-right: 1.25em;
+}
+.navbar1 .menu nav{
+    margin: 0px;
+    padding: 0px 16px;
+}
+
+/*Apply styles after scroll*/
+.scrolling-active{
+    box-shadow: 0 3px 1rem rgba(0,0,0,.1);
+}
+.scrolling-active #navv1{
+    background-color: #b1040e;
+}
+.scrolling-active .btm-nav{
+    background-color: #fff;
+    /* color: #000; */
+}
+.scrolling-active .btm-nav  #navul a{
+    color: #000;
+}
+.scrolling-active .menu nav ul li a::after{
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+	width: 100%;
+	height: 0.175rem;
+    /* background: #fff; */
+	/* border-bottom: 3px solid #fff; */
+	transition:0.5s ease-in-out;
+    transform: scale(0);
+
+    background: #b1040e;
+}
+.scrolling-active .menu nav ul li a:hover::after{
+	transform: scale(1);
+}
+
+.scroll-header .explore{
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.scroll-header .explore a{
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.25em;
+    line-height: 1.4;
+    /* padding-left: 10px; */
+    color: #fff;
+    /* margin: 10px 531px; */
+}
+.scroll-header .stanford{
+    height: 500px;
+    position: fixed;
+    top:65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.scroll-header .stanford .header-txt p{
+    color: #fff;
+    text-shadow: 0 0 30px rgb(0 0 0 / 70%);
+    font-size: 7.4505805969em;
+    
+    font-family: Stanford,Source Serif Pro,Georgia,Times,Times New Roman,serif!important;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: .512em;
+}
+
+.scroll-header .stanford .header-txt{
+    padding-top: 37.5px;
+    padding-bottom: 37.5px;
+    margin: 20px 390px;
+   
+}
+
+ #head-explore{
+    background-color: #b1040e;
+    height: 50px;
+    text-align: center;
+    width: 100vw;
+   position: fixed;
+   bottom: 0;
+   left: 0;
+    align-content: center;
+    
+}
+#head-explore:hover{
+        background-color: #960a12;
+}
+ #expid{
+     width: 100%;
+     height: 100%;
+     position: relative;
+
+ }
+ .explore a{
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.25em;
+    line-height: 1.4;
+    color: #fff;
+
+}
+.navv1{
+    margin: 0;
+}
+@media screen and (max-width: 600px) {
+    .navbar1 nav .navbar-brand {
+        font-size: 22px;
+    }
+    #navbarr1 i{
+        font-size: 14px;
+    }
+    .navbar1 header button {
+        height: 35px;
+        
+    }
+    .scrolling-active .btm-nav{
+        background-color: #b1040e;
+        color: #fff !important;
+    }
+    .scrolling-active .btm-nav  #navul a{
+        color: #fff !important;
+    }
+  #navv2{
+      display: none;
+  }
+  .scrolling-active .btm-nav  #navul a{
+    color: #000;
+    font-size: 16px !important;
+}
+  #search{
+      display: none;
+  }
+  .scroll-header .stanford .header-txt p{
+      font-size: 75px;
+  }
+  
+  }
+  @media screen and (max-width: 992px) {
+    
+    #search{
+        display: none;
+    }
+    }
+
+.main{
+    width: 100%;
+    position:absolute;
+    /* z-index: 20; */
+}
+
+
+
+
+
+
+.res-covid{
+
+    background-color: #544948;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heading-txt{
+    
+    text-align: center;
+    width: 805px;
+    padding-top: 67.5px;
+    padding-bottom: 37.5px;
+   
+}
+.res-covid .heading-txt h2{
+    
+    color: #fff;
+    font-size: 3.0517578125em;
+    font-weight: 900;
+    line-height: 1.25em;
+    text-align: center;
+    font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
+    letter-spacing: -.85px;
+}
+.res-covid .heading-txt p{
+
+    margin-bottom: 52.5px;
+    font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
+    margin-top: .333333em;
+    font-size: 1.5625em;
+    line-height: 1.5;
+}
+.res-covid .heading-txt a{
+    
+    font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: #fff;
+    
+    text-decoration: none;
+}
+.res-covid .res-covid-btn{
+    
+    
+    text-align: center;
+    padding-bottom: 37.5px;
+   
+}
+.res-covid .heading-txt .res-covid-btn a{
+
+    text-decoration: none;
+    background-color: #b1040e;
+    box-shadow: 0 0 10px rgb(0 0 0 / 10%), 0 0 5px rgb(0 0 0 / 10%);
+    color: #fff;
+    font-weight: 600;
+    padding: .4444444444em 1em .5555555556em;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 1.25em;
+}
+
+
+.res-covid .panel{
+    display: block;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 37.5px;
+    position: relative;
+}
+.res-covid .panel a{
+    color: #fff;
+    display: block;
+    background-color: #b1040e;
+    box-shadow: 0 0 10px rgb(0 0 0 / 10%), 0 0 5px rgb(0 0 0 / 10%);
+    font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 600;
+    line-height: 1.5rem;
+    padding: .4444444444em 1em .5555555556em;
+    text-align: center;
+    text-decoration: none;
+    transition: all .25s ease-in-out;
+    font-size: 1.25em;
+    width: 29.5rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+@media screen and (max-width: 600px) {
+    
+    .res-covid .panel a{
+        width: fit-content;
+    }
+    
+  }
+
+/* @media only screen and (min-width: 1024px) and (max-width: 1499px) {
+    .res-covid {
+    padding-top: 37.5px;
+    padding-bottom: 37.5px;
+}} */
+
+
+
+.main .panel a:hover{
+    background-color: #960a12;
+    
+  }
+
+
+
+
+
+
+
+
+.news{
+    background-color: #f9f6ef;
+    padding-top: 37.5px;
+    padding-bottom: 37.5px;
+
+}
+
+.news .card:hover img{
+    transform: scale(1.03);
+    transition: 0.5s ease-in-out;
+}
+.news .card:hover .card-body a{
+    color: #006cb8;
+    transition: 0.5s ease-in-out;
+}
+.news figure{
+    overflow: hidden;
+}
+/* .news #news1 .card{
+    width: 100%;
+} */
+.news #news1 figure img{
+    width: 100%;
+    height: 420px;
+}
+.news #news1 figure{
+    width: 100%;
+    height: 420px;
+    padding: 0;
+    margin: 0;
+}
+.news .card-body h5{
+    color: #820000;
+    text-transform: uppercase;
+    font-weight: 600;
+    line-height: 1.2;
+}
+.news .card-body a{
+    color: #000;
+    text-decoration: none;
+    font-size: 1.125em;
+    font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    line-height: 1.25em;
+}
+
+.news .card{
+    height: 420px;
+    margin: 10px 10px;
+    box-shadow: 0 0 10px rgb(0 0 0 / 15%), 0 3px 3px rgb(0 0 0 / 15%);
+}
+.news .card figure{
+    height: 180px;
+}
+.news header h2{
+    font-size: 3.0517578125em;
+    color: #000;
+    font-weight: 900;
+    line-height: 1.25em;
+    text-align: center;
+    font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.news header p{
+    margin-bottom: 30px;
+    margin-top: .333333em;
+    font-size: 1.5625em;
+    color: #000;
+    line-height: 1.5;
+    font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
+    text-align: center;
+}
+.news .panel{
+    display: block;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 37.5px;
+    position: relative;
+}
+.news .panel a{
+    color: #fff;
+    display: block;
+    background-color: #b1040e;
+    box-shadow: 0 0 10px rgb(0 0 0 / 10%), 0 0 5px rgb(0 0 0 / 10%);
+    font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 600;
+    line-height: 1.5rem;
+    padding: .4444444444em 1em .5555555556em;
+    text-align: center;
+    text-decoration: none;
+    transition: all .25s ease-in-out;
+    font-size: 1.25em;
+    width: 28.5rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.news #news1 .banner{
+position: relative;
+}
+
+.news #news1 .txt {
+position: absolute;
+bottom: 0%;
+width: 100%;
+padding: 5px 5px;
+}
+.news #news1 .txt p{
+    color: #fff;
+    text-shadow: rgb(0 0 0 / 60%) 0 0 2px;
+    font-size: calc(15px + (3 * ((100vw - 1024px) / 475)));
+    font-weight: 600;
+}
+.news #news1 .txt a{
+    font-size: calc(21px + (6 * ((100vw - 1024px) / 475)));
+    padding-bottom: 26px;
+    color: #fff;
+    letter-spacing: .03em;
+    font-weight: 600;
+    line-height: 1.2;
+    text-decoration: none;
+    transition: color .25s ease-in;
+}
+
+@media screen and (max-width: 992px) {
+    .news .card figure{
+        height: auto;
+    }
+  
+}
+  
+  @media screen and (max-width: 600px) {
+    .news .card{
+        height: auto;
+        margin: 10px 10px;
+        border-radius: none !important;
+    }
+    .news .card figure{
+        height: auto;
+    }
+    .news .panel a{
+        width: fit-content;
+    }
+    
+  }
+
+
+
+
+
+
+
+
+
+  .events{
+      background-color: #2f2424;
+  }
+  .events header{
+    padding-left: calc(50% - 436.666666667px);
+    padding-right: calc(50% - 436.666666667px);
+    padding-bottom: 22.5px;
+    padding-top: 30px;
+  }
+.events header h2{
+    font-size: 3.0517578125em;
+    color: #fff;
+    letter-spacing: -.85px;
+    font-weight: 900;
+    line-height: 1.25em;
+    text-align: center;
+    font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.events header p{
+    margin-bottom: 30px;
+    margin-top: .333333em;
+    font-size: 1.5625em;
+    text-align: center;
+    color: #fff;
+    line-height: 1.5;
+    font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
+
+}
+.events .card:hover img{
+    transform: scale(1.03);
+    transition: 0.5s ease-in-out;
+}
+.events .card:hover .card-body a{
+    color: #006cb8;
+    transition: 0.5s ease-in-out;
+}
+.events figure{
+    overflow: hidden;
+}
+
+.events .card{
+    height: 500px;
+    margin: 10px 10px;
+    border-radius: none !important;
+}
+.events .card figure{
+    height: 280px;
+}
+.events .card-body h5{
+    color: #820000;
+    text-transform: uppercase;
+    font-weight: 600;
+    line-height: 1.2;
+}
+.events .card-body a{
+    color: #000;
+    text-decoration: none;
+    font-size: 1.125em;
+    font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    line-height: 1.25em;
+    
+}
+.events .card-body{
+    position: relative;
+}
+.events .date {
+    position: absolute;
+    top: -70px;
+    left: 10px;
+    padding: 10px 20px;
+    background-color: #2f2424;
+    color: white;
+}
+.events .no {
+    display: block;
+    font-weight: bold;
+    text-align: center;
+}
+
+.events .panel{
+    display: block;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 107.5px;
+    position: relative;
+}
+.events .panel a{
+    color: #fff;
+    display: block;
+    background-color: #b1040e;
+    box-shadow: 0 0 10px rgb(0 0 0 / 10%), 0 0 5px rgb(0 0 0 / 10%);
+    font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 600;
+    line-height: 1.5rem;
+    padding: .55555555em 1em .5555555556em;
+    text-align: center;
+    text-decoration: none;
+    transition: all .25s ease-in-out;
+    font-size: 1.30em;
+    width: 28.5rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+@media screen and (max-width: 992px) {
+    .events .card figure{
+        height: auto;
+    }
+  
+}
+  
+  @media screen and (max-width: 600px) {
+    .events .card{
+        height: auto;
+        margin: 10px 10px;
+        border-radius: none !important;
+    }
+    .events .card figure{
+        height: auto;
+    }
+    .events .panel a{
+        width: fit-content;
+    }
+    
+  }
+ 
+
+
+
+
+
+
+
+
+
+
+.academics{
+    background-color: #fff;
+    margin: 0;
+}
+.academics header{
+  padding-left: calc(50% - 436.666666667px);
+  padding-right: calc(50% - 436.666666667px);
+  padding-bottom: 22.5px;
+  padding-top: 30px;
+}
+.academics header h2{
+    font-size: 3.0517578125em;
+    color: #000;
+    letter-spacing: -.85px;
+    font-weight: 900;
+    line-height: 1.25em;
+    text-align: center;
+    font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.academics header p{
+    margin-bottom: 30px;
+    margin-top: .333333em;
+    font-size: 1.5625em;
+    text-align: center;
+    color: #000;
+    line-height: 1.5;
+    font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
+
+}
+
+.academics .card{
+  height: 450px;
+  margin: 10px 10px;
+  border: none !important;
+  border-radius: none !important;
+}
+.academics .card figure{
+  height: 230px;
+}
+.academics .card-body{
+    padding: 0px;
+}
+.academics .card-body h5{
+  color: #000;
+  font-size: 1.25em;
+  margin-bottom: .4096em;
+  font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    line-height: 1.25em;
+}
+.academics .card-body p{
+    margin-bottom: .512em;
+    line-height: 1.5;
+    font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
+    
+    color: #000;
+}
+.academics .card-body a{
+    color: #006cb8;
+  text-decoration: none;
+  font-size: 1.125em;
+  font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-weight: 400;
+  line-height: 1.25em;
+}
+   .academics .card-body a:hover{
+      border-bottom: 2px solid #006cb8;
+  } 
+  
+
+.academics .panel{
+  display: block;
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 107.5px;
+  position: relative;
+}
+.academics .panel a{
+  color: #fff;
+  display: block;
+  background-color: #b1040e;
+  font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-weight: 600;
+  line-height: 1.5rem;
+  padding: .55555555em 1em .5555555556em;
+  text-align: center;
+  text-decoration: none;
+  transition: all .25s ease-in-out;
+  font-size: 1.30em;
+  width: 28.5rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+
+.academics .academics-content{
+    padding-top: 37.5px;
+    padding-bottom: 37.5px;
+}
+.academics .academics-content h3{
+    text-align: center;
+    color: #000;
+    font-size: 1.5625em;
+    margin-bottom: .4096em;
+    font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    line-height: 1.25em;
+
+}
+
+.academics .academics-content .content li {
+    
+    display: inline;
+    margin-bottom: .512em;
+    padding: 0 .5555555556em;
+    font-size: 1.25em;
+    font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
+    border-right: 2px solid#000;
+    
+}
+.content li a{
+    position: relative;
+}
+.content li a:hover{
+    text-decoration: none;
+}
+.content li a::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: #006cb8;
+    width: 100%;
+    height: 0.175rem;
+    transform: scale(0);
+    transition: 0.5s ease-in-out;
+    border-bottom: 2px solid #006cb8;
+
+}
+.content li a:hover::after{
+    transform: scale(1);
+}
+.academics-content .content  li:last-child{
+    border-right: none !important;
+}
+.academics .speech{
+    background: url("/academic-bg-img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    background-position: center;
+
+}
+
+.academics .speaker{
+    background-color: rgba(255, 255, 255, 0.507);
+    padding: 50px 0px;
+    height: 700;
+}
+.academics .speaker .speaker-txt h4{
+    font-size: 1.953125em;
+    font-weight: 400;
+    text-shadow: 1px 1px 6px #000;
+    text-align: center;
+    color: #fff;
+    font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
+    margin-bottom: .8em;
+    line-height: 1.35;
+}
+.academics .speaker .speaker-txt h6{
+    font-size: 1.25em;
+    margin-bottom: 0;
+    margin-top: .64em;
+    font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    line-height: 1.25em;
+    color: #fff;
+    text-align: center;
+    text-shadow: 1px 1px 6px #000;
+}
+.academics .speaker .speaker-txt p{
+    font-size: 1em;
+    font-weight: 400;
+    margin-bottom: 0;
+    font-style: italic;
+    font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
+    text-align: center;
+    text-shadow: 1px 1px 6px #000;
+    color: #fff;
+    
+}
+.academics .speaker .speaker-txt a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1em;
+   display: flex;
+
+   justify-content: center;
+    text-shadow: 1px 1px 6px #000;
+    line-height: 1.5;
+    font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
+    
+}
+
+.academics .speech .speaker .speaker-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.academics .speech .speaker .speaker-txt{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.academics .speech .speaker .speaker-txt{
+width: 60%;
+margin-left: auto;
+margin-right: auto;
+}
+
+.academics .speech .speaker .speaker-img img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    
+}
+@media screen and (max-width: 992px) {
+    .academics .card figure{
+        height: auto;
+    }
+    .academics .speech{
+        height: 900px;
+    }
+    .academics .speaker{
+        height: 900px;
+    }
+}
+@media screen and (max-width:768px){
+    .academics .card{
+        height: auto;
+        margin: 10px 10px;
+        border-radius: none !important;
+    }
+    .academics .card figure{
+        height: auto;
+    }
+    .academics .speech{
+        height: 700px;
+    }
+    .academics .speaker .speaker-txt h4{
+        font-size: 1.553125em;
+        
+    }
+}
+@media screen and (max-width: 600px) {
+  
+  .academics .card{
+    height: auto;
+    margin: 10px 10px;
+    border-radius: none !important;
+}
+.academics .card figure{
+    height: auto;
+}
+.academics .speech{
+    height: 700px;
+}
+.academics .speaker .speaker-txt h4{
+    font-size: 18px;
+    
+}
+.academics .panel a{
+    width: fit-content;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .stanford-research{
+    background-color: #fff;
+    margin: 0;
+    padding-top: 80px;
+}
+.stanford-research header{
+  padding-left: calc(50% - 436.666666667px);
+  padding-right: calc(50% - 436.666666667px);
+  padding-bottom: 22.5px;
+  padding-top: 30px;
+}
+.stanford-research header h2{
+    font-size: 2.44140625em;
+    font-weight: 700;
+  color: #000;
+  letter-spacing: -.85px;
+  line-height: 1.25em;
+  text-align: center;
+  font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.stanford-research .card:hover img{
+    transform: scale(1.03);
+    transition: 0.5s ease-in-out;
+}
+.stanford-research .card:hover .card-body a{
+    color: #006cb8;
+    transition: 0.5s ease-in-out;
+}
+.stanford-research figure{
+    overflow: hidden;
+}
+
+.stanford-research .card{
+  height: 400px;
+  margin: 10px 10px;
+  border-radius: none !important;
+  box-shadow: 0 0 10px rgb(0 0 0 / 15%), 0 3px 3px rgb(0 0 0 / 15%);
+}
+.stanford-research .card figure{
+  height: 180px;
+}
+.stanford-research .card-body h5{
+  color: #820000;
+  text-transform: uppercase;
+  font-weight: 600;
+  line-height: 1.2;
+}
+.stanford-research .card-body a{
+  color: #000;
+  text-decoration: none;
+  font-size: 1.125em;
+  font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-weight: 700;
+  line-height: 1.25em;
+  
+}
+
+.stanford-research .panel{
+  display: block;
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 107.5px;
+  position: relative;
+}
+.stanford-research .panel a{
+  color: #fff;
+  display: block;
+  background-color: #b1040e;
+  box-shadow: 0 0 10px rgb(0 0 0 / 10%), 0 0 5px rgb(0 0 0 / 10%);
+  font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-weight: 600;
+  line-height: 1.5rem;
+  padding: .55555555em 1em .5555555556em;
+  text-align: center;
+  text-decoration: none;
+  transition: all .25s ease-in-out;
+  font-size: 1.30em;
+  width: 28.5rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.stanford-research .head-txt h2{
+    font-size: 3.0517578125em;
+    font-weight: 900;
+  color: #000;
+  letter-spacing: -.85px;
+  line-height: 1.25em;
+  text-align: center;
+  font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.stanford-research .head-txt p{
+    margin-bottom: 30px;
+    font-size: 1.5625em;
+    text-align: center;
+    margin-top: .333333em;
+    padding: 0px 210px;
+    color: #000;
+    font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
+    line-height: 1.25em;
+}
+.stanford-research .institute h3{
+    font-size: 1.5625em;
+    font-weight: 900;
+    
+    line-height: 1.25em;
+    color: #000;
+    font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
+    text-align: center;
+}
+.stanford-research .institute p{
+    font-size: 1.5625em;
+
+    
+    line-height: 1.25em;
+    color: #000;
+    font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
+    text-align: center;
+}
+.stanford-research .institute{
+  
+  margin-top: 50px;
+  margin-bottom: 70px;
+}
+.stanford-research .institute .row{
+    padding-top: 35px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #000;
+  border-top: 1px solid #000;
+  width: 93%;
+  margin: auto;
+   
+}
+@media screen and (max-width: 992px) {
+    .stanford-research .card figure{
+        height: auto;
+    }
+  
+}
+@media screen and (max-width: 600px) {
+  
+  .stanford-research .card{
+    height: auto;
+    margin: 10px 10px;
+    border-radius: none !important;
+}
+.stanford-research .card figure{
+    height: auto;
+}
+.stanford-research .head-txt p{
+    margin-bottom: 30px;
+    font-size: 1.3625em;
+    text-align: center;
+    margin-top: .333333em;
+    padding: 0px 15px;
+    color: #000;
+    font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
+    line-height: 1.25em;
+}
+.stanford-research .panel a{
+    width: fit-content;
+}
+}
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+.health-care{
+    background-color: #f9f6ef;
+}
+.health-care header{
+  padding-left: calc(50% - 436.666666667px);
+  padding-right: calc(50% - 436.666666667px);
+  padding-bottom: 22.5px;
+  padding-top: 30px;
+}
+.health-care header h2{
+    font-size: 3.0517578125em;
+    color: #000;
+    letter-spacing: -.85px;
+    font-weight: 900;
+    line-height: 1.25em;
+    text-align: center;
+    font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.health-care header p{
+    margin-bottom: 30px;
+    margin-top: .333333em;
+    font-size: 1.5625em;
+    text-align: center;
+    color: #000;
+    line-height: 1.5;
+    font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
+
+}
+.health-care .card{
+  height: 450px;
+  margin: 10px 10px;
+  border: none !important;
+  border-radius: none !important;
+  background-color: #f9f6ef;
+}
+.health-care .card figure{
+  height: 230px;
+}
+.health-care .card-body h5{
+  color: #000;
+  font-size: 1.25em;
+  margin-bottom: .4096em;
+  font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    line-height: 1.25em;
+}
+.health-care .card-body{
+    padding: 0px;
+}
+.health-care .card-body p{
+    margin-bottom: .512em;
+    line-height: 1.5;
+    font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
+    
+    color: #000;
+}
+.health-care .card-body a{
+    color: #006cb8;
+  text-decoration: none;
+  font-size: 1.125em;
+  font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-weight: 400;
+  line-height: 1.25em;
+}
+.health-care .card-body a:hover{
+    border-bottom: 2px solid #006cb8;
+}
+.health-care .panel{
+  display: block;
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 107.5px;
+  position: relative;
+}
+.health-care .panel a{
+  color: #fff;
+  display: block;
+  background-color: #b1040e;
+  font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-weight: 600;
+  line-height: 1.5rem;
+  padding: .55555555em 1em .5555555556em;
+  text-align: center;
+  text-decoration: none;
+  transition: all .25s ease-in-out;
+  font-size: 1.30em;
+  width: 28.5rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.health-care .speech{
+    background: url("/healthcare-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+}
+
+.health-care .speaker{
+    background-color: rgba(255, 255, 255, 0.507);
+    height: 500px;
+    padding: 50px 0px;
+}
+.health-care .speaker .speaker-txt h4{
+    font-size: 1.953125em;
+    font-weight: 400;
+    text-shadow: 1px 1px 6px #000;
+    text-align: center;
+    color: #fff;
+    font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
+    margin-bottom: .8em;
+    line-height: 1.35;
+}
+.health-care .speaker .speaker-txt h6{
+    font-size: 1.25em;
+    margin-bottom: 0;
+    margin-top: .64em;
+    font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    line-height: 1.25em;
+    color: #fff;
+    text-align: center;
+    text-shadow: 1px 1px 6px #000;
+}
+.health-care .speaker .speaker-txt p{
+    font-size: 1em;
+    font-weight: 400;
+    margin-bottom: 0;
+    font-style: italic;
+    font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
+    text-align: center;
+    text-shadow: 1px 1px 6px #000;
+    color: #fff;
+    
+}
+.health-care .speaker .speaker-txt a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1em;
+   display: flex;
+
+   justify-content: center;
+    text-shadow: 1px 1px 6px #000;
+    line-height: 1.5;
+    font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
+    
+}
+.health-care .speech .speaker .speaker-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.health-care .speech .speaker .speaker-txt{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.health-care .speech .speaker .speaker-txt{
+width: 60%;
+margin-left: auto;
+margin-right: auto;
+}
+
+.health-care .speech .speaker .speaker-img img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    
+}
+@media screen and (max-width: 992px) {
+    .health-care .card figure{
+        height: auto;
+        margin-bottom: 10px;
+    }
+    .health-care .card{
+        height: auto;
+        margin: 10px 10px;
+        border-radius: none !important;
+    }
+}
+@media screen and (max-width:760px){
+    .health-care .speech{
+        height: 600px;
+    }
+    .health-care .speaker{
+        height: 600px;
+    }
+}
+@media screen and (max-width: 600px) {
+  
+  .health-care .card{
+    height: auto;
+    margin: 10px 10px;
+    border-radius: none !important;
+}
+.health-care .card figure{
+    height: auto;
+}
+.health-care .speaker .speaker-txt h4{
+
+    font-size: 25px;
+}
+.health-care .panel a{
+    width: fit-content;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.campus-life{
+    background-color: #fff;
+}
+.campus-life header{
+  padding-left: calc(50% - 436.666666667px);
+  padding-right: calc(50% - 436.666666667px);
+  padding-bottom: 22.5px;
+  padding-top: 30px;
+}
+.campus-life header h2{
+    font-size: 3.0517578125em;
+    color: #000;
+    letter-spacing: -.85px;
+    font-weight: 900;
+    line-height: 1.25em;
+    text-align: center;
+    font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.campus-life header p{
+    margin-bottom: 30px;
+    margin-top: .333333em;
+    font-size: 1.5625em;
+    text-align: center;
+    color: #000;
+    line-height: 1.5;
+    font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
+
+}
+
+.campus-life .card{
+  height: 450px;
+  margin: 10px 10px;
+  border: none !important;
+  border-radius: none !important;
+
+}
+.campus-life .card-body{
+    padding: 0px;
+}
+.campus-life .card figure{
+  height: 230px;
+}
+.campus-life .card-body h5{
+  color: #000;
+  font-size: 1.25em;
+  margin-bottom: .4096em;
+  font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    line-height: 1.25em;
+}
+.campus-life .card-body p{
+    margin-bottom: .512em;
+    line-height: 1.5;
+    font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
+    
+    color: #000;
+}
+.campus-life .card-body a{
+    color: #006cb8;
+  text-decoration: none;
+  font-size: 1.125em;
+  font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-weight: 400;
+  line-height: 1.25em;
+  
+  
+}
+.campus-life .card-body a:hover{
+    border-bottom: 2px solid #006cb8;
+}
+.campus-life .panel{
+  display: block;
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 107.5px;
+  position: relative;
+}
+.campus-life .panel a{
+  color: #fff;
+  display: block;
+  background-color: #b1040e;
+  font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-weight: 600;
+  line-height: 1.5rem;
+  padding: .55555555em 1em .5555555556em;
+  text-align: center;
+  text-decoration: none;
+  transition: all .25s ease-in-out;
+  font-size: 1.30em;
+  width: 28.5rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+@media screen and (max-width: 992px) {
+    .campus-life .card figure{
+        height: auto;
+        margin-bottom: 10px;
+    }
+    .campus-life .card{
+        height: auto;
+        margin: 10px 10px;
+        border-radius: none !important;
+    }
+}
+@media screen and (max-width: 600px) {
+  
+  .campus-life .card{
+    height: auto;
+    margin: 10px 10px;
+    border-radius: none !important;
+}
+.campus-life .card figure{
+    height: auto;
+}
+.campus-life .panel a{
+    width: fit-content;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.admission{
+    background-color: #f9f6ef;
+}
+.admission header{
+  padding-left: calc(50% - 436.666666667px);
+  padding-right: calc(50% - 436.666666667px);
+  padding-bottom: 22.5px;
+  padding-top: 30px;
+}
+.admission header h2{
+    font-size: 3.0517578125em;
+    color: #000;
+    letter-spacing: -.85px;
+    font-weight: 900;
+    line-height: 1.25em;
+    text-align: center;
+    font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.admission header p{
+    margin-bottom: 30px;
+    margin-top: .333333em;
+    font-size: 1.5625em;
+    text-align: center;
+    color: #000;
+    line-height: 1.5;
+    font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
+
+}
+.admission img{
+    height: 576px;
+    width: 100%;
+}
+.admission .card{
+  height: 150px;
+  margin: 10px 10px;
+  border: none !important;
+  border-radius: none !important;
+  background-color: #f9f6ef;
+}
+.admission .card-body h5{
+  color: #000;
+  font-size: 1.25em;
+  margin-bottom: .4096em;
+  font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    line-height: 1.25em;
+}
+.admission .card-body p{
+    margin-bottom: .512em;
+    line-height: 1.5;
+    font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
+    
+    color: #000;
+}
+
+.admission .panel{
+  display: block;
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 107.5px;
+  position: relative;
+}
+.admission .panel a{
+  color: #fff;
+  display: block;
+  background-color: #b1040e;
+  font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-weight: 600;
+  line-height: 1.5rem;
+  padding: .55555555em 1em .5555555556em;
+  text-align: center;
+  text-decoration: none;
+  transition: all .25s ease-in-out;
+  font-size: 1.30em;
+  width: 28.5rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+@media screen and (max-width: 600px) {
+    .admission .card{
+        height: auto;
+        margin: 10px 10px;
+        border-radius: none !important;
+    }
+    .admission .card figure{
+        height: auto;
+    }
+
+  .admission .panel a{
+      width: fit-content;
+  }
+  }
+
+
+
+
+
+
+
+
+
+.about-us{
+    background-color: #fff;
+}
+.about-us header{
+  padding-left: calc(50% - 436.666666667px);
+  padding-right: calc(50% - 436.666666667px);
+  padding-bottom: 22.5px;
+  padding-top: 30px;
+}
+.about-us header h2{
+    font-size: 3.0517578125em;
+    color: #000;
+    letter-spacing: -.85px;
+    font-weight: 900;
+    line-height: 1.25em;
+    text-align: center;
+    font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.about-us header p{
+    margin-bottom: 30px;
+    margin-top: .333333em;
+    font-size: 1.5625em;
+    text-align: center;
+    color: #000;
+    line-height: 1.5;
+    font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
+
+}
+.about-us .seats h3{
+    font-size: 1.6625em;
+    font-weight: 900;
+    line-height: 1.25em;
+    color: #000;
+    font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
+    text-align: center;
+}
+.about-us .seats p{
+    font-size: 1.2625em;
+    line-height: 1.25em;
+    color: #000;
+    font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
+    text-align: center;
+}
+
+.about-us .seats .row{
+    padding-top: 15px;
+    padding-bottom: 15px;
+   
+}
+.about-us .panel{
+    display: block;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 107.5px;
+    position: relative;
+  }
+  .about-us .panel a{
+    color: #fff;
+    display: block;
+    background-color: #b1040e;
+    font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 600;
+    line-height: 1.5rem;
+    padding: .55555555em 1em .5555555556em;
+    text-align: center;
+    text-decoration: none;
+    transition: all .25s ease-in-out;
+    font-size: 1.30em;
+    width: 28.5rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  
+.about-us img{
+    height: 576px;
+    width: 100%;
+}
+@media screen and (max-width: 600px) {
+  
+
+    .about-us .panel a{
+        width: fit-content;
+    }
+    #fnav-1{
+        padding: 5px 10px;
+    }
+    #fnav-2{
+        padding: 5px 10px;
+    }
+    #copyright{
+        padding: 5px 10px;
+        margin: 5px  10px !important;
+    }
+   
+    }
+  
+
+
+
+
+
+
+
+
+
+footer  {
+    background-color: #f4f4f4;
+    width: 100%;
+    position: absolute;
+    /* z-index: 20; */
+}
+footer .social {
+    
+    overflow: hidden;
+    margin-left: 30px;
+    line-height: 1;
+    
+}
+footer .social ul{
+    float: right;
+    margin:10px 15px;
+
+}
+#fb:hover{
+    color: #3b579d;
+}
+#twit:hover{
+    color: #1da1f2;
+}
+#insta:hover{
+    color: #d73676;
+}
+#yt:hover{
+    color: #cd201f;
+}
+#apple:hover{
+    color: #555;
+}
+#end-nav{
+    padding-top: 20px;
+}
+footer .social ul li{
+    display: inline;
+    margin: 0px 7px;
+}
+footer .social ul li a{
+    text-decoration: none;
+    font-size: 1.953125em;
+    color: #000;  
+}
+footer .footer-content .colum h3{
+    font-size: 1em;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #820000;
+    margin-bottom: .5333333333em;
+    font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+footer .footer-content #content-row .colum{
+    padding-left: 20px;
+}
+footer .footer-content #content-row .colum ul{
+    margin-left: 0px;
+    padding-left: 0px;
+}
+footer .footer-content #content-row .colum ul li{
+    
+    list-style: none;
+    margin-bottom: 12px;
+}
+
+footer .footer-content #content-row .colum ul li a{
+    text-decoration: none;
+    color: #000;
+    font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 1.1em;
+}
+#content-row{
+    padding-top: 50px;
+    background-color: #fff;
+
+}
+footer .footer-content #Box-list li {
+    font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 600;
+    line-height: 1.5;
+    padding: .5em 1em;
+    box-shadow: 0 0 10px rgb(0 0 0 / 10%), 0 0 5px rgb(0 0 0 / 10%);
+    border: 1px solid #544948;
+    color: #544948;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+footer .footer-content #content-row .colum ul li a:hover{
+    color: #006cb8;
+    border-bottom: 1px solid #006cb8;
+}
+footer .footer-content #Box-list li:hover{
+    border: 1px solid #b1040e;
+}
+#Box-list li:hover a{
+    color: #b1040e !important;
+    border-bottom: none !important;
+}
+#foot-nav{
+    background-color: #8c1515;
+    
+}
+.main footer .footer-navbar #footer-logo{
+    margin: 30px 30px;
+}
+
+.main footer .footer-navbar #footer-logo a{
+    font-family: Stanford,Source Serif Pro,Georgia,Times,Times New Roman,serif!important;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.8em;
+    line-height: .75;   
+    color: #fff;
+    
+}
+
+footer .footer-navbar nav ul{
+    margin-bottom: 3px;
+    
+}
+footer .footer-navbar nav ul li{
+    list-style: none;
+    display: inline;
+    padding: 10px 10px;
+}
+footer .footer-navbar nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+footer .footer-navbar #fnav2 a{
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+footer .footer-navbar #fnav1 a{
+font-weight: 600px;
+font-size: 16px;
+}
+#copyright{
+    color: #fff;
+    margin-left: 50px;
+}
+
+
+
+
+
+
+.modal-backdrop{
+    /* display: none !important; */
+    z-index: 20 !important;
+}
+.modal-dialog {
+    margin: 6.75rem auto !important;
+}
+.form-group{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.modal{
+    z-index: 200 !important;
+}
+.modal-body .row{
+    margin-bottom: 1rem;
+}
+.modal-dialog{
+    z-index: 200 !important;
+}
+.modal-content{
+    z-index: 200 !important;
+}
+.inquiry{
+    z-index: 200 !important;
+}
+.inquiry .container{
+    z-index: 200 !important;
+}
+.modal-content h3{
+    color: #b1040e;
+    text-align: center;
+}
+.submit-btn{
+    background-color: #b1040e;
+    color: #fff;
+}
+form label{
+    color: #b1040e;
+}
+.submit-btn:hover{
+    background-color: #960a12;
+    color: #fff;
+}
+.modal-header h4{
+    color: #b1040e;
+    padding-left: 15px;
+}
+.modal-footer{
+    border: none;
+}
+.our-profile {
+position: fixed;
+padding: 5px 5px;
+width:40px;
+height: 180px;
+bottom: 200px;
+right: 0px;
+background-color: #b1040e;
+writing-mode: vertical-rl; 
+color: #FFF;
+border-radius: 1px;
+text-align: center;
+font-size: 20px;
+}
+.our-profile:hover{
+background-color: #960a12;
+color: #fff;
+}
+
+
+
+
+
+
+
+
+.last-sec .scroll-top {
+    bottom: 0;
+    display: block;
+    position: absolute;
+    padding: 13px 21px;
+  
+      float: right;
+      right: 26px;
+      color: #b1040e;
+      background-color: #fff;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      transition: .3s;
+      cursor: pointer;
+  }
+  .last-sec{
+    background-color:#8c1515 ;
+    position: relative;
+    transition:1.5s ease;
+  }
+  #top i{
+    color: #b1040e!important;
+  }
